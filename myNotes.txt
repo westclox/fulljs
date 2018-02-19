@@ -1,1 +1,21 @@
+// create an empty file in DOS shell
 echo .> src/index.js
+
+// using git
+// intiializae the local directory
+git init
+
+// Add the files to the new local repository
+git add .
+
+// Commit the files that you staged
+git commit -m "Setup"
+
+// Add the URL for the remote repository
+git remote add origin https://github.com/westclox/fulljs.git
+
+// verifies the new remote
+git remote -v
+
+// push the changes
+git push origin master
